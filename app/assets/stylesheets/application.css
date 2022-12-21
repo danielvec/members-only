@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+   font-family: 'Roboto';
+   list-style-type: none;
+ }
+
+ .post {
+  height: 15vh;
+  width: 70vw;
+  background-color: rgb(177, 242, 239);
+  margin-top: 5px;
+  padding: 4px;
+  border: solid black;
+  border-radius: 5px;
+ }
+
+ .title {
+   font-size: 3vh;
+ }
+
+ .author {
+   font-style: italic;
+   color: rgb(99, 97, 97);
+ }
